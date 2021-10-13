@@ -30,5 +30,13 @@ public class Main {
         System.out.println("Long Maximum value = " + myMaxLongValue);
         long bigLongLiteralValue = 2147483647L;
         System.out.println(bigLongLiteralValue);
+                short bigShortLiteralValue = 32767;
+
+        int myTotal = (myMinIntValue/2);
+
+        // Casting: Treating or converting a number from one type to another.
+        byte myNewByteValue =  (byte)(myMinByteValue/2);
+
+        short myNewShortValue = (short)(myMinShortValue/2);
     }
 }
