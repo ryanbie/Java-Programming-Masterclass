@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner myObj = new Scanner(System.in);
+
+        System.out.println("Enter an amount for pounds");
+        double pounds = myObj.nextDouble();
+        double convertedKilograms = pounds * 0.45359237d;
+        System.out.println("Here is your pounds converted to kg: " + convertedKilograms);
+    }
+}
