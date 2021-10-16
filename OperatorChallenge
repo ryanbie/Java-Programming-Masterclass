@@ -1,0 +1,18 @@
+public class Main {
+
+    public static void main(String[] args) {
+	    double doubleVariable = 20.00d;
+        double seconddoubleVariable = 80.00d;
+        double result = (doubleVariable + seconddoubleVariable) * 100.00d;
+        System.out.println(result);
+        result = result % 40.00d;
+        System.out.println(result); //result is 0 because 10000/40 = 250 no remainder left
+
+        boolean booleanResult = (result == 0) ? true : false;
+        System.out.println(booleanResult);
+
+        if (booleanResult == false) {
+            System.out.println("Got some remainder?");
+        }
+    }
+}
