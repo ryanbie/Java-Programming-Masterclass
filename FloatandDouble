@@ -12,9 +12,19 @@ public class Main {
         System.out.println("Double minimum value = " + Double.MIN_VALUE);
         System.out.println("Double maximum value = " + Double.MAX_VALUE);
 
-        int myIntValue = 5;
-        float myFloatValue = 5.25f;
-        double myDoubleValue = 5.25d; //double is the preferred method
+        int myIntValue = 5/2;
+        float myFloatValue = 5f/3f;
+        double myDoubleValue = 5d/3d; //double is the preferred method
+
+        System.out.println("myIntValue = " + myIntValue);
+        System.out.println("myFloatValue = " + myFloatValue);
+        System.out.println("myDoubleValue = " + myDoubleValue);
+
+        double pi = 3.14159237d;
+        double anotherNumber = 3_000_000.4567_890d; //Underscores can be used to represent ,'s
+
+        System.out.println(pi);
+        System.out.println(anotherNumber);
 
     }
 }
